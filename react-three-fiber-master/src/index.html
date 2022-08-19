@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typlore</title>
+    <style>
+        .button {
+            display: inline-flex;
+            height: 40px;
+            padding: 0px;
+            background: none;
+            border: none;
+            outline: none;
+            border-radius: 50px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .button:hover {
+            background: #000000;
+            color: #f2f2f2
+        }
+        .button:active {
+            background: #f2f2f2;
+        }
+        .button__icon {
+            display: inline-flex;
+            align-items: center;
+            padding: 0 6.5px;
+            color: #000000;
+            height: 100%;
+        }
+        .button__icon {
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <button type="botton" class="button">
+        <span class="button__icon">
+            <ion-icon name="help"></ion-icon>
+        </span>
+    </button>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
