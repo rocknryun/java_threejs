@@ -9,7 +9,7 @@ const Header = () => {
       </div>
       <div className='episode'>
         <span>Typlore</span>
-        Explore your typo neuron
+        <div>Explore your typo neuron</div>
       </div>
       <div class="main_container">
         <div data-view="pinned_top" 
