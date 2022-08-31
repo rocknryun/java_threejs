@@ -1,10 +1,12 @@
 import React from "react";
 
+
 const Header = () => {
-  return (
+  return (<>
     <header>
-      <div className='lproject'>
-        2022 Gradeshow
+      <div className='project'>
+        <h1>2022 Gradeshow
+        </h1>
         
       </div>
       <div className='episode'>
@@ -19,6 +21,7 @@ const Header = () => {
           </div>
       </div>
     </header>
+  </>    
   );
 };
 

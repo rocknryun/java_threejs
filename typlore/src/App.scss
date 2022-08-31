@@ -1,4 +1,4 @@
-$black: #2a2a24;
+$black: #000000;
 
 * {
   box-sizing: border-box;
@@ -19,21 +19,25 @@ body,
   user-select: none;
   overflow: hidden;
   font-size: 14px;
+  
+  
 }
 
 #root {
-  overflow: auto;
+  position: absolute;
+  z-index: 999;
 }
 
 body {
-  position: fixed;
+  position: absolute;
   overflow: hidden;
   overscroll-behavior-y: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: white;
   -webkit-font-smoothing: antialiased;
-  background: #000000;
+  // background: #000000;
+  z-index: 10;
 }
 
 // header
@@ -47,6 +51,8 @@ header {
   align-items: center;
   justify-content: space-between;
   color: white;
+  z-index: 20;
+  
   .logo,
   .episode {
     span {
