@@ -1,0 +1,15 @@
+h1.project {
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  color: white;
+  z-index: 100;
+}
+
+.logo.span,
+.episode.span {
+  font-size: 6rem;
+  font-weight: 300;
+  letter-spacing: 0.04rem;
+}
